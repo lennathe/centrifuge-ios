@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'CentrifugeiOS/Classes/**/*'
 
-  s.dependency 'SwiftWebSocket', '2.6.4'
-  s.dependency 'IDZSwiftCommonCrypto', '0.8.3'
+  s.dependency 'SwiftWebSocket', ‘2.6.5’
+  s.dependency 'IDZSwiftCommonCrypto', ‘0.9.0’
   s.xcconfig = {
-      'SWIFT_VERSION' => '2.3'
+      'SWIFT_VERSION' => ‘3.0’
   }
 end
